@@ -1,0 +1,159 @@
+.body {
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.left_header, right_header {
+    display: flex;
+}
+
+#Header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#Header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Body */
+
+.content {
+    display: flex;
+    background-color: #1F2937;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+#awesome_text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left_content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.right_content {
+    display: flex;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+#Frieda_picture{
+    display: block;
+    margin: auto;
+    border: 5px solid #555;
+    object-fit: contain;
+    max-width: 95%;
+    max-height: 95%;
+    width: auto;
+    height: auto;
+}
+
+#Desc_text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#sign_up_button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+
+}
+
+/* Random Info */
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#information_text{
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+
+}
+
+.info_header {
+    display: flex;
+    justify-content: center;
+}
+
+.text-frieda {
+    max-width: 200px;
+    text-align: center;
+}
+
+.random_pic {
+    width: 200px;
+    height: 200px;
+}
+
+/* Quote */
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    color: #1F2937;
+    margin: auto;
+}
+
+#quote-text {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#frieda-quote-name {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    justify-items: right;
+}
+
+/* Call to action */
+.action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 50px;
+    padding: 50px;
+}
+
+.action-button{
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 10px;
+}
