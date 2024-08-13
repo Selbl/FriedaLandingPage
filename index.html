@@ -20,7 +20,7 @@
         <div class = "left_content">
             <p id="awesome_text"> Frieda is AWESOME</p>
             <p id = "Desc_text"> This little cat can purr over 100 times per minute! Her secret? 16hrs of sleep a day and a knack for treats</p>
-            <button id = "sign_up_button">Pledge soul to Frieda</button>
+            <button id = "sign_up_button" onclick="sendEmail()">Pledge soul to Frieda</button>
         </div>
         <div class = "right_content">
             <img id = "Frieda_picture" src = "imgs/Frieda.jpg" alt="Cutest cat ever">
@@ -62,11 +62,26 @@
             <p>Sign here to proclaim Frieda as the snuggliest cat of 2024</p>
         </div>
         <div class = "action-button">
-            <button id = "sign_up_button">Pledge soul to Frieda</button>
+            <button id = "sign_up_button" onclick="sendEmail()">Pledge soul to Frieda</button>
         </div>
     </div>
     <div class = "footer">
         <p>Copyright © Frieda Elbl Runkle McKernon Droguett</p>
     </div>
+
+    <script>
+        function sendEmail() {
+            // Define the email parameters
+            var email = "s.elbl.droguett@gmail.com";
+            var subject = "Frieda";
+            var body = "I have decided to pledge my soul to Frieda. Long may she reign!";
+            
+            // Construct the mailto link
+            var mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            
+            // Open the mailto link in a new window
+            window.location.href = mailtoLink;
+        }
+    </script>
   </body>
 </html>
