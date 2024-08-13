@@ -31,6 +31,15 @@
     color: #E5E7EB;
 }
 
+#Header-links a {
+    color: #E5E7EB; /* Match the color of #Header-links */
+}
+
+#Header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 /* Body */
 
 .content {
